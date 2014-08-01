@@ -1,0 +1,103 @@
+/* This is where you can override the default styles to fit with the site design */
+
+.site_wrapper {
+	margin:45px auto;
+	text-align:left;
+	width:500px;
+}
+
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color: #000;
+}
+
+a:hover {
+color:#9EB5A4 !important;
+text-decoration:underline !important;
+}
+
+a:link {
+color:#00462A;
+text-decoration:none;
+}
+
+a:visited {
+color:#00462A;
+text-decoration:none;
+}
+
+
+
+
+
+.header {
+	background-color: #c0c0c0;
+	height: 90px;
+}
+
+.top_content {
+	background-color: #888;
+}
+
+.main_content .visual_padding {
+	padding:0px 10px 10px 10px;
+}
+
+.three_column_layout .left_column {
+	background-color: #FFFFFF;
+	float:left;
+	width:241px;
+}
+
+.three_column_layout .columns_wrapper {
+	float:right;
+	width:690px;
+}
+
+.three_column_layout .main_content {
+	background-color: #fff;
+	float:left;
+	width:690px;	
+}
+
+.three_column_layout .right_column {
+	background-color: #eee;
+}
+
+.footer {
+	background-color: #c0c0c0;
+}
+
+p {
+	font-size:15px;
+	line-height:18px;
+	margin:12px 0pt 0pt 15px;
+	width:auto;
+	
+}
+
+h2 {
+font-size: 15px;
+margin: 4px 0 5px 0;
+margin:12px 0pt 0pt 15px;
+	width:auto;
+
+}
+
+
+/* --- CONTACT CSS -- */
+
+address {
+	float:left;
+	margin:0pt;
+	padding:0pt;
+	width:200px;
+}
+
+.address p {
+	margin:12px 0pt 0pt 15px;
+	width:200px;
+	float:left;
+}
+
